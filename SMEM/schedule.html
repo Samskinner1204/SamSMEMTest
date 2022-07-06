@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Schedule</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <style>
+            body {
+                background-color: white;
+            }
+
+            table {
+            border-spacing: 0;
+            border-radius: 15px ;
+            border-collapse: seperate ;
+            
+            }
+
+            th{
+                border: 1px solid black;
+                padding: 25px;
+                text-align: center;
+                background-color: #575A5E;
+                color: white
+                
+            }
+
+            td {
+                border: 1px solid black;
+                padding: 25px;
+                text-align: center;
+                background-color: #A7A2A9;
+            }
+
+            caption {
+                font-size: 10;
+            }
+
+        </style>
+    </head>
+    <body>
+        <navigation-component selected="schedule"></navigation-component>
+        <img src="QA CINEMA.png" alt="cinema seats banner image" width="100%" height="400px">
+        <div class="container">
+        <section>
+            <table>
+                <thead>
+                    <caption><b>Opening Times</b></caption>
+                    <tr>
+                        <th>Day</th>
+                        <th>Open Times</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Monday-Thursday</td>
+                    <td>16:30-21:00</td>
+                </tr>
+                <tr>
+                    <td>Friday-Saturday</td>
+                    <td>16:30-22:00</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>16:00-21:30</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+        <section>
+            <table>
+                <caption><b>Whats on</b></caption>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Start Time</th>
+                    <th>Image</th>
+                </tr>
+                <tr>
+                    <td>Movie Title 1</td>
+                    <td>Time</td>
+                    <td>Thumbnail 1</td>
+                </tr>
+                <tr>
+                    <td>Movie Title 2</td>
+                    <td>Time</td>
+                    <td>Thumbnail 2</td>
+                </tr>
+                <tr>
+                    <td>Movie Title 3</td>
+                    <td>Time</td>
+                    <td>Thumbnail 3</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+    </div>
+        <footer-component></footer-component>
+    </body>
+</html>
