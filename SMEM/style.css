@@ -1,0 +1,94 @@
+:root {
+    --header-padding: 20px;
+}
+
+nav, ul {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav {
+    padding-left: var(--header-padding);
+    padding-right: var(--header-padding);
+    border: 2px solid black;
+    background-color: #a7a2a9;
+}
+
+ul {
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.selected {
+    color: #f4f7f5;
+}
+
+table {
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+}
+
+footer {
+    border-top: 1px solid grey
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cara {
+    margin: auto;
+    border: 3px solid #575A5E;
+    padding: 10px;
+    width: 600px;
+
+}
+
+h1, h3, .titleText {
+    text-align: center;
+    color: #08090A;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h3 {
+    font-size: x-small;
+}
+
+.homepara {
+    text-align: center;
+    color: #08090A;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.errorText {
+    color: red;
+}
